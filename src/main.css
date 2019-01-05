@@ -1900,6 +1900,10 @@
   }
 }
 
+.Toastify {
+  font-size: 2rem;
+}
+
 .mainSideArticleListContainer {
   position: relative;
   cursor: pointer;
