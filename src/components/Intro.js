@@ -111,7 +111,7 @@ class intro extends Component {
             <div className="eventsContainer">
               {this.props.events.map((e, index) =>
                 index < 3 ? (
-                  <div className="eventsContainer2">
+                  <div key={index} className="eventsContainer2">
                     <span className="indexEventLolCount">{index + 1}.</span>
                     <EventIntroHid key={e.id} title={e.title} />
                   </div>

@@ -15,8 +15,6 @@ import {
   addImages,
   addEvent
 } from "../../actions/actionReciever";
-import { confirmAlert } from "react-confirm-alert";
-import "react-confirm-alert/src/react-confirm-alert.css";
 const uuidv1 = require("uuid/v1");
 class Events extends Component {
   state = {
