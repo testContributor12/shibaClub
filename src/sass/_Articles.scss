@@ -1,0 +1,97 @@
+.mainSideArticleListContainer {
+  position: relative;
+  cursor: pointer;
+  border-bottom: 4px solid black;
+  .eventTitleArticle {
+    width: 26rem;
+    min-height: 6rem;
+    max-height: 10rem;
+    display: flex;
+    align-items: center;
+
+    .sideMainArticleTitle {
+      margin-left: 1rem;
+      font-size: 2.5rem;
+    }
+  }
+  .fa-trash-alt {
+    top: 23%;
+    right: 2%;
+    position: absolute;
+    font-size: 3rem;
+    cursor: pointer;
+    transition: all 0.3s;
+    &:hover {
+      transition: all 0.3s;
+      font-size: 3.3rem;
+      color: red;
+    }
+  }
+  .fa-pencil-alt,
+  .fa-check {
+    right: 14%;
+    top: 23%;
+    position: absolute;
+    font-size: 3rem;
+    cursor: pointer;
+    cursor: pointer;
+    transition: all 0.3s;
+    &:hover {
+      transition: all 0.3s;
+      font-size: 3.3rem;
+    }
+  }
+  .fa-check {
+    color: rgb(8, 168, 8);
+  }
+}
+.actualTitle2 {
+  font-size: 6rem;
+}
+.deleteActionContainer {
+  z-index: 10;
+  padding: 0.5rem;
+  position: fixed;
+  top: 30%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  width: 40rem;
+  height: 17rem;
+  background-color: white;
+  border: 3px solid black;
+
+  .deleteActionContainerHeader {
+    display: block;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+  }
+  .deleteActionContainerDelete {
+    cursor: pointer;
+    margin-left: 8.1rem;
+    font-size: 2.2rem;
+    color: white;
+    background-color: rgb(117, 33, 150);
+    transition: all 0.4s;
+    border-radius: 10px;
+    padding: 0.6rem;
+    &:hover {
+      transition: all 0.4s;
+      background-color: rgb(114, 14, 36);
+    }
+  }
+  .deleteActionContainerCancel {
+    cursor: pointer;
+    margin-left: 6rem;
+    font-size: 2.2rem;
+    color: white;
+    border-radius: 10px;
+    padding: 0.6rem;
+    background-color: rgb(36, 187, 36);
+    transition: all 0.4s;
+    &:hover {
+      transition: all 0.4s;
+      background-color: rgb(25, 221, 25);
+    }
+  }
+}

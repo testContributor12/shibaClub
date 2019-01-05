@@ -1,0 +1,390 @@
+@mixin borderStuff {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 4px solid rgb(117, 33, 150);
+  outline: none;
+  &:focus {
+    border-bottom: 6px solid rgb(36, 187, 36);
+  }
+}
+.EventsMainContainer {
+  height: 80rem;
+  display: flex;
+  .selectEvent {
+    min-width: 34rem;
+    border-right: 5px solid black;
+    .topEventHandler {
+      display: flex;
+      border-bottom: 5px solid rgb(36, 187, 36);
+      align-items: center;
+
+      .addButton,
+      .cancelButton {
+        padding: 0.3rem 0.7rem;
+        display: inline-block;
+        border-radius: 10px;
+        margin-left: 4.5rem;
+        color: rgb(0, 0, 0);
+        background-color: rgb(36, 187, 36);
+        cursor: pointer;
+        span {
+          color: white;
+          font-size: 2.1rem;
+        }
+        .fa-plus,
+        .fa-minus {
+          font-size: 1.5rem;
+          color: white;
+          margin-left: 0.4rem;
+        }
+      }
+
+      .addButton {
+        background-color: rgb(36, 187, 36);
+        transition: all 0.3s;
+      }
+
+      .cancelButton {
+        background-color: rgb(117, 33, 150);
+        transition: all 0.3s;
+      }
+      .topEventHandlerSpan {
+        font-weight: bold;
+        font-size: 4.2rem;
+        margin-left: 1rem;
+      }
+    }
+  }
+}
+
+.imgContainerMain {
+  opacity: 1;
+  position: absolute;
+  top: 20.5%;
+  right: 4.5%;
+  width: 59rem;
+  height: 33rem;
+  transition: opacity 1.5s;
+  @media only screen and (max-height: 1750px) {
+    right: 2%;
+  }
+  @media only screen and (max-height: 857px) {
+    top: 25%;
+  }
+  @media only screen and (max-height: 730px) {
+    top: 30%;
+  }
+  @media only screen and (max-height: 670px) {
+    top: 35%;
+  }
+  @media only screen and (max-height: 577px) {
+    top: 40%;
+  }
+  @media only screen and (max-height: 505px) {
+    top: 43%;
+  }
+  .imgContainerSub {
+    position: absolute;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.deleteImageList {
+  overflow-y: scroll;
+  background-color: rgba(36, 187, 36, 0.726);
+  border-left: 5px solid rgb(117, 33, 150);
+  position: absolute;
+  top: 20.5%;
+  right: 2%;
+  width: 59rem;
+  height: 33rem;
+
+  @media only screen and (max-height: 857px) {
+    top: 25%;
+  }
+  @media only screen and (max-height: 730px) {
+    top: 30%;
+  }
+  @media only screen and (max-height: 670px) {
+    top: 35%;
+  }
+  @media only screen and (max-height: 577px) {
+    top: 40%;
+  }
+  @media only screen and (max-height: 505px) {
+    top: 43%;
+  }
+  .wrapperContainer {
+    position: relative;
+    width: 54rem;
+    height: 2.5rem;
+    .imageToDeleteList {
+      color: rgb(0, 0, 0);
+      list-style: none;
+      font-size: 1.4rem;
+    }
+    .deletImag {
+      cursor: pointer;
+      font-size: 2.9rem;
+      color: rgb(194, 21, 21);
+      position: absolute;
+      top: -10%;
+      right: -2%;
+    }
+  }
+}
+
+.animateDown {
+  transition: all 1.5s;
+  top: 53%;
+  opacity: 0;
+}
+.starDescription {
+  margin: 1.3rem 0 1.5rem 6.7rem;
+  display: inline-block;
+  .actualDescription {
+    font-size: 6rem;
+    font-weight: bold;
+  }
+}
+.starRealDescription {
+  margin: 0 3rem;
+  margin-left: 6.7rem;
+  display: inline-block;
+  .starRealActualDescription {
+    font-size: 3rem;
+  }
+}
+
+.eventFlexboxDetails {
+  margin-top: 3rem;
+  width: 59rem;
+  margin-left: 7rem;
+  display: flex;
+  flex-direction: column;
+
+  .titleStage {
+    align-self: center;
+    margin-bottom: 2rem;
+
+    .actualTitle,
+    .updateTitleState {
+      font-size: 4.9rem;
+      font-weight: bold;
+    }
+  }
+  .dateContainer {
+    margin-bottom: 2rem;
+    .dateDate {
+      font-weight: bold;
+      font-size: 3rem;
+    }
+    .actualDate {
+      font-size: 2.5rem;
+    }
+  }
+  .locationDivContainer {
+    width: 68rem;
+    margin-bottom: 2rem;
+    .locationLocation {
+      font-weight: bold;
+      font-size: 3rem;
+    }
+    .actualLocation {
+      font-size: 2.5rem;
+    }
+  }
+  .TaxDivContainer {
+    margin-bottom: 2rem;
+    .taxSpan {
+      font-weight: bold;
+      font-size: 3rem;
+    }
+    .actualTax {
+      font-size: 2.5rem;
+    }
+  }
+  .NoteDivContainer {
+    .NoteNote {
+      font-weight: bold;
+      font-size: 3rem;
+    }
+    .actualNote {
+      font-size: 2.5rem;
+    }
+  }
+}
+
+.toBeUpdatedDetail {
+  width: 80rem;
+  margin-left: 3rem;
+  display: flex;
+  flex-direction: column;
+  .updateTitleContainer {
+    align-self: center;
+    margin-bottom: 1rem;
+    max-width: 40rem;
+    .updateTitleState {
+      margin-left: -7rem;
+      text-align: center;
+      width: 141%;
+      @include borderStuff;
+      font-size: 4.6rem;
+    }
+  }
+  .updateDateContainer {
+    margin-bottom: 1rem;
+    .updateDateSpan {
+      font-size: 2.3rem;
+      font-weight: bold;
+    }
+    .updateDateState {
+      width: 100%;
+      @include borderStuff;
+      font-size: 2.5rem;
+    }
+  }
+  .updatelocationContainer {
+    margin-bottom: 1rem;
+    .updateLocationSpan {
+      font-size: 2.3rem;
+      font-weight: bold;
+    }
+    .updateLocationState {
+      width: 100%;
+      @include borderStuff;
+      font-size: 2.5rem;
+    }
+  }
+  .updateTaxContainer {
+    margin-bottom: 1rem;
+    .updateTaxSpan {
+      font-size: 2.3rem;
+      font-weight: bold;
+    }
+    .updateTaxState {
+      width: 100%;
+      @include borderStuff;
+      font-size: 2.5rem;
+    }
+  }
+  .updateNoteContainer {
+    margin-bottom: 1rem;
+    .updateNoteSpan {
+      font-size: 2.3rem;
+      font-weight: bold;
+    }
+
+    .updateNoteState {
+      width: 100%;
+      @include borderStuff;
+      font-size: 2.5rem;
+    }
+  }
+}
+
+.updateDescriptionContainer {
+  margin: -0.4rem 0 1rem 2.7rem;
+  display: inline-block;
+  .updateDescriptionSpan {
+    font-size: 4rem;
+    font-weight: bold;
+  }
+}
+
+.descriptionStageTextArea {
+  resize: none;
+  display: block;
+  margin: 0 3rem;
+  width: 135rem;
+  height: 26rem;
+  font-size: 3.1rem;
+}
+.addShibaImages {
+  cursor: pointer;
+  color: white;
+  padding: 0.2rem 1rem;
+  background-color: rgb(117, 33, 150);
+  visibility: hidden;
+  border-radius: 10px;
+  position: absolute;
+  top: 15.7%;
+  left: 62.1%;
+  z-index: 1;
+  font-size: 2.5rem;
+  @media only screen and (max-height: 912px) {
+    top: 15%;
+  }
+  @media only screen and (max-height: 857px) {
+    top: 20%;
+  }
+  @media only screen and (max-height: 730px) {
+    top: 22%;
+  }
+  @media only screen and (max-height: 730px) {
+    top: 24%;
+  }
+}
+.deleteImages {
+  cursor: pointer;
+  color: white;
+  visibility: hidden;
+  position: absolute;
+  top: 15.8%;
+  right: 26.8%;
+  font-size: 2.5rem;
+  z-index: 1;
+  @media only screen and (max-height: 912px) {
+    top: 15%;
+  }
+  @media only screen and (max-height: 857px) {
+    top: 20%;
+  }
+  @media only screen and (max-height: 730px) {
+    top: 22%;
+  }
+  @media only screen and (max-height: 730px) {
+    top: 24%;
+  }
+
+  .returnImages {
+    border-radius: 10px;
+    padding: 0.2rem 1.375rem;
+    background-color: rgb(36, 187, 36);
+  }
+  .delImages {
+    border-radius: 10px;
+    padding: 0.2rem 1rem;
+    background-color: rgb(117, 33, 150);
+  }
+}
+
+.openLighboxButton {
+  z-index: 1;
+  text-align: center;
+  border-radius: 10px;
+  padding: 0.2rem 1rem;
+  cursor: pointer;
+  color: white;
+  background-color: rgb(36, 187, 36);
+  position: absolute;
+  right: 4.3%;
+  top: 15%;
+  width: 39rem;
+  font-size: 2.9rem;
+  @media only screen and (max-height: 912px) {
+    top: 15%;
+  }
+  @media only screen and (max-height: 857px) {
+    top: 20%;
+  }
+  @media only screen and (max-height: 730px) {
+    top: 22%;
+  }
+  @media only screen and (max-height: 730px) {
+    top: 24%;
+  }
+}

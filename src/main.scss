@@ -1,0 +1,32 @@
+@import "./sass/Navbar";
+@import "./sass/Intro";
+@import "./sass/Footer";
+@import "./sass/Events";
+@import "./sass/AddEvent";
+@import "./sass/Stage";
+@import "./sass/Event";
+@import "./sass/About";
+@import "./sass/Articles";
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+input {
+  font-family: "PT Sans", sans-serif;
+}
+html {
+  font-size: 62.5%;
+  @media only screen and(max-width:1470px) {
+    font-size: 50%;
+  }
+  @media only screen and(max-width:1024px) {
+    font-size: 43%;
+  }
+  @media only screen and(max-width:840px) {
+    font-size: 33%;
+  }
+}

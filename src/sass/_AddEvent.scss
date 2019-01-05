@@ -1,0 +1,141 @@
+.toBeCreatedDetail {
+  margin-top: -1rem;
+  width: 68rem;
+  margin-left: 3rem;
+  display: flex;
+  flex-direction: column;
+  .createTitleContainer {
+    align-self: center;
+    margin-bottom: 0.8rem;
+    margin-top: 2.8rem;
+    width: 40rem;
+    .createTitleLabel {
+      font-weight: bold;
+      font-size: 2.8rem;
+    }
+    .titleValue {
+      width: 100%;
+      @include borderStuff;
+      font-size: 2rem;
+    }
+  }
+  .createDateContainer {
+    margin-bottom: 0.6rem;
+    .createDateLabel {
+      font-size: 2.3rem;
+      font-weight: bold;
+    }
+    .dateValue {
+      width: 100%;
+      @include borderStuff;
+      font-size: 2.5rem;
+    }
+  }
+  .createLocationContainer {
+    margin-bottom: 0.6rem;
+    .createlocationLabel {
+      font-size: 2.3rem;
+      font-weight: bold;
+    }
+    .locationValue {
+      width: 100%;
+      @include borderStuff;
+      font-size: 2.5rem;
+    }
+  }
+  .createTaxContainer {
+    margin-bottom: 0.6rem;
+    .createTaxLabel {
+      font-size: 2.3rem;
+      font-weight: bold;
+    }
+    .taxValue {
+      width: 100%;
+      @include borderStuff;
+      font-size: 2.5rem;
+    }
+  }
+  .createNoteContainer {
+    margin-bottom: 0.6rem;
+    .createNoteLabel {
+      font-size: 2.3rem;
+      font-weight: bold;
+    }
+    .noteValue {
+      width: 100%;
+      @include borderStuff;
+      font-size: 2.5rem;
+    }
+  }
+}
+
+.createDescriptionContainer {
+  margin: -0.4rem 0 1rem 2.7rem;
+  display: inline-block;
+  .createDescriptionSpan {
+    font-size: 4rem;
+    font-weight: bold;
+  }
+}
+.descriptionValue {
+  resize: none;
+  display: block;
+  margin: 0 3rem;
+  width: 120rem;
+  height: 29rem;
+  font-size: 3.1rem;
+}
+.finalTouchButton {
+  position: absolute;
+  top: 20%;
+  left: 60%;
+  height: 20rem;
+  width: 70rem;
+
+  .addImagesToEvent {
+    position: absolute;
+    left: 10%;
+    font-size: 3.4rem;
+    cursor: pointer;
+    color: white;
+    padding: 0.5rem 1.3rem;
+    background-color: rgb(8, 168, 8);
+    border-radius: 10px;
+    transition: all 0.3s;
+    &:hover {
+      transition: all 0.3s;
+      background-color: rgb(8, 185, 17);
+    }
+  }
+  .createeventButton {
+    top: 60%;
+    right: 36%;
+    padding: 1rem;
+    position: absolute;
+    font-size: 3.5rem;
+    cursor: pointer;
+    color: white;
+    padding: 1rem 1.8rem;
+    background-color: rgb(117, 33, 150);
+    border-radius: 10px;
+    transition: all 0.3s;
+    &:hover {
+      transition: all 0.3s;
+      background-color: rgb(154, 12, 219);
+    }
+  }
+}
+.hiddenErrorMsg {
+  color: red;
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin-left: 0.4rem;
+}
+.hiddenErrorMsgImg {
+  color: red;
+  font-size: 2.6rem;
+  font-weight: bold;
+  position: relative;
+  top: 20%;
+  left: 10%;
+}

@@ -1,0 +1,44 @@
+.mainSideEventListContainer {
+  position: relative;
+  cursor: pointer;
+  border-bottom: 4px solid black;
+  .eventTitleSpan {
+    width: 26rem;
+    min-height: 6rem;
+    max-height: 10rem;
+    display: flex;
+    align-items: center;
+
+    h4 {
+      margin-left: 1rem;
+      font-size: 2.6rem;
+    }
+  }
+  .fa-trash-alt {
+    top: 23%;
+    right: 2%;
+    position: absolute;
+    font-size: 3rem;
+    cursor: pointer;
+    &:hover {
+      transition: all 0.3s;
+      font-size: 3.3rem;
+      color: red;
+    }
+  }
+  .fa-pencil-alt,
+  .fa-check {
+    right: 14%;
+    top: 23%;
+    position: absolute;
+    font-size: 3rem;
+    cursor: pointer;
+    &:hover {
+      transition: all 0.3s;
+      font-size: 3.3rem;
+    }
+  }
+  .fa-check {
+    color: rgb(8, 168, 8);
+  }
+}

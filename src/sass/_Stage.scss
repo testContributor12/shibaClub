@@ -1,0 +1,102 @@
+////////////////////artciles main stage
+.titleStage {
+  font-size: 3rem;
+  margin-bottom: 1.3rem;
+  text-align: center;
+}
+.authorStage {
+  margin-top: 1rem;
+  font-size: 4rem;
+  margin-left: 70%;
+  .actualAuthor {
+    font-family: "Charm", cursive;
+    font-size: 4rem;
+  }
+}
+.showStageContainer {
+  overflow-y: scroll;
+}
+.showStageContainerArticles {
+  padding: 1.5rem 0rem 4rem 0;
+  overflow-y: scroll;
+  width: 100%;
+}
+////////////////////articles updaet stage
+.updateTitleContainerArticles {
+  text-align: center;
+  width: 100%;
+  .updateTitleSpanArticles {
+    font-size: 4rem;
+  }
+  .updateTitleStateArticles {
+    font-size: 4rem;
+    @include borderStuff;
+  }
+}
+
+.updateDescriptionContainerArticles {
+  padding: 0 3rem;
+  .updateDescriptionSpanArticles {
+    font-size: 4rem;
+    font-weight: bold;
+  }
+  .descriptionStageTextAreaArticles {
+    height: 35rem;
+    width: 100%;
+    font-size: 2.5rem;
+  }
+}
+.createAuthorContainer {
+  padding: 0 3rem;
+  .createAuthorSpan {
+    margin-left: 60%;
+    font-size: 3rem;
+  }
+  .authorValue {
+    font-family: "Charm", cursive;
+    @include borderStuff;
+    font-size: 3rem;
+  }
+}
+
+.updateAuthorContainerArticles {
+  .updateAuthorStateArticles {
+    @include borderStuff;
+    font-size: 2.3rem;
+  }
+  .updateAuthorSpanArticles {
+    font-size: 2.3rem;
+    margin-left: 50%;
+  }
+}
+.descriptionValue2 {
+  resize: none;
+  display: block;
+  margin: 0 3rem;
+  width: 125rem;
+  height: 35rem;
+  font-size: 2.1rem;
+}
+.createArticleButton {
+  top: 0%;
+  right: 30%;
+  position: absolute;
+  font-size: 3.5rem;
+  cursor: pointer;
+  color: white;
+  padding: 1rem 1.8rem;
+  background-color: rgb(117, 33, 150);
+  border-radius: 10px;
+  transition: all 0.3s;
+  &:hover {
+    transition: all 0.3s;
+    background-color: rgb(154, 12, 219);
+  }
+}
+.hiddenErrorMsgInput {
+  // position: absolute;
+  color: red;
+  font-size: 1.7rem;
+  font-weight: bold;
+  margin-left: 68rem;
+}

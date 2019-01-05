@@ -1,0 +1,418 @@
+.containerMainIntro {
+  height: 200rem;
+  @media only screen and(max-width:770px) {
+    height: 260rem;
+  }
+  .containerMainTop {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5rem;
+    @media only screen and(max-width:768px) {
+      flex-direction: column;
+    }
+    .aboutIntro {
+      padding: 1.4rem;
+      margin: 9rem 0 0 0rem;
+      width: 70rem;
+      height: 38rem;
+      @media only screen and(max-width:768px) {
+        align-self: center;
+        margin: 4rem 0 0 0rem;
+      }
+      .headerIntro {
+        font-size: 5.9rem;
+        margin-bottom: 3.5rem;
+        @media only screen and(max-width:768px) {
+          font-size: 9rem;
+        }
+      }
+      .aboutIntroText {
+        font-size: 2.5rem;
+        width: 60rem;
+        margin-bottom: 5rem;
+        @media only screen and(max-width:768px) {
+          width: 100%;
+          font-size: 3.8rem;
+        }
+      }
+      .joinUsButtonContainer {
+        display: inline-block;
+        text-decoration: none;
+        margin-left: 34rem;
+        padding: 1.5rem;
+        font-weight: bold;
+        border-radius: 14px;
+        background-color: rgb(117, 33, 150);
+        color: rgb(255, 255, 255);
+        transition: background-color 0.4s;
+        @media only screen and(max-width:1150px) {
+          margin-left: 25rem;
+        }
+        @media only screen and(max-width:768px) {
+          font-size: 4rem;
+          margin-top: -7rem;
+        }
+        &:hover {
+          background-color: rgb(66, 190, 16);
+          transition: background-color 0.4s;
+        }
+
+        .joinUsButton {
+          font-size: 2.8rem;
+          @media only screen and(max-width:768px) {
+            font-size: 4rem;
+          }
+        }
+      }
+    }
+
+    .galleryIntro {
+      margin: 4rem 3rem 0 0;
+      width: 74rem;
+      @media only screen and(max-width:1585px) {
+        width: 60rem;
+        margin: 8rem 3rem 0 0;
+      }
+      // @media only screen and(max-width:970px) {
+      //   width: 50rem;
+      //   margin: 8rem 3rem 0 0;
+      // }
+      @media only screen and(max-width:900px) {
+        width: 50rem;
+        margin: 8rem 3rem 0 0;
+      }
+      @media only screen and(max-width:768px) {
+        align-self: center;
+        width: 70rem;
+      }
+
+      .carousel {
+        height: 45rem;
+        @media only screen and(max-width:1585px) {
+          height: 35rem;
+        }
+        // @media only screen and(max-width:970px) {
+        //   height: 32rem;
+        // }
+        @media only screen and(max-width:900px) {
+          height: 29rem;
+        }
+        @media only screen and(max-width:768px) {
+          height: 40rem;
+        }
+        .dot {
+          background-color: rgb(182, 182, 51) !important;
+          width: 15px !important;
+          height: 15px !important;
+        }
+        .control-arrow {
+          &:hover {
+            background: rgba(0, 0, 0, 0.384) !important;
+          }
+          width: 5rem !important;
+          &:before {
+            opacity: 1;
+            height: 3rem !important;
+          }
+        }
+        .control-prev {
+          &::before {
+            border-right: 23px solid #fff !important;
+            -webkit-clip-path: polygon(
+              100% 0%,
+              75% 50%,
+              100% 100%,
+              42% 71%,
+              0% 50%,
+              44% 27%
+            );
+            clip-path: polygon(
+              100% 0%,
+              75% 50%,
+              100% 100%,
+              42% 71%,
+              0% 50%,
+              44% 27%
+            );
+          }
+        }
+        .control-next {
+          &::before {
+            border-left: 23px solid #fff !important;
+            -webkit-clip-path: polygon(
+              47% 23%,
+              100% 50%,
+              52% 76%,
+              0% 100%,
+              25% 50%,
+              0% 0%
+            );
+            clip-path: polygon(
+              47% 23%,
+              100% 50%,
+              52% 76%,
+              0% 100%,
+              25% 50%,
+              0% 0%
+            );
+          }
+        }
+      }
+    }
+  }
+}
+.latestEventsContaner {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 17rem;
+  height: 40rem;
+  @media only screen and(max-width:1650px) {
+    flex-direction: column;
+  }
+  .impactHeader {
+    margin-left: 20rem;
+    margin-top: 6rem;
+    font-size: 5.4rem;
+    @media only screen and(max-width:1650px) {
+      margin-top: -9rem;
+      margin-left: 14rem;
+      font-size: 6.4rem;
+    }
+    @media only screen and(max-width:1470px) {
+      margin-left: 10rem;
+    }
+    @media only screen and(max-width:900px) {
+      margin-left: 3rem;
+    }
+    @media only screen and(max-width:768px) {
+      font-size: 5.4rem;
+    }
+    .underTextSpan {
+      font-size: 6.5rem;
+      font-family: "Rubik Mono One", sans-serif;
+      @media only screen and(max-width:1650px) {
+        margin-left: 8rem;
+        font-size: 7.8rem;
+      }
+      @media only screen and(max-width:768px) {
+        font-size: 6.4rem;
+      }
+    }
+  }
+  .benefitsPackageContainer {
+    margin-right: 13rem;
+    @media only screen and(max-width:1650px) {
+      margin-left: 20rem;
+    }
+    @media only screen and(max-width:1470px) {
+      margin-left: 20rem;
+    }
+    width: 121.9rem;
+    @media only screen and(max-width:1170px) {
+      width: 100rem;
+      margin-left: 25rem;
+    }
+    @media only screen and(max-width:900px) {
+      margin-left: 15rem;
+    }
+    @media only screen and(max-width:768px) {
+      width: 90rem;
+    }
+    @media only screen and(max-width:768px) {
+      margin-top: -5rem;
+      height: 22rem;
+    }
+    @media only screen and(max-width:650px) {
+      margin-left: 5rem;
+    }
+    @media only screen and(max-width:600px) {
+      clip-path: none;
+      margin-top: 5rem;
+      margin-bottom: -20rem;
+      height: 60rem;
+      width: 44rem;
+      align-self: center;
+      margin-left: 10rem;
+    }
+    -webkit-clip-path: polygon(13% 0, 100% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(13% 0, 100% 0, 100% 100%, 0% 100%);
+    height: 32rem;
+    background-color: #8cbe2f;
+    .benefitsPackageContainerIconPack {
+      margin-left: 6rem;
+      display: flex;
+      justify-content: center;
+      @media only screen and(max-width:600px) {
+        flex-direction: column;
+      }
+      .benefitC {
+        text-align: center;
+        margin: 3.6rem 3rem 0 3rem;
+      }
+      .brainBenefitsContaiener {
+        margin-left: 2rem;
+      }
+      .benefitDescContainer {
+        width: 27rem;
+        @media only screen and(max-width:1170px) {
+          width: 24rem;
+        }
+        @media only screen and(max-width:768px) {
+          width: 23rem;
+        }
+        @media only screen and(max-width:600px) {
+          margin-left: 2rem;
+        }
+        .benefitDesc {
+          text-align: center;
+          font-size: 2.9rem;
+        }
+      }
+    }
+  }
+  .fas,
+  .far {
+    margin-bottom: 1rem;
+    font-size: 9rem;
+    color: rgb(253, 253, 253);
+    @media only screen and(max-width:768px) {
+      font-size: 6rem;
+    }
+    @media only screen and(max-width:600px) {
+      margin-left: -5rem;
+    }
+  }
+}
+.sectionBottomInfo {
+  @media only screen and (max-width: 695px) {
+    margin-top: 20rem;
+  }
+  position: relative;
+  height: 90rem;
+  .div1Bottom {
+    position: absolute;
+    top: 19%;
+    left: 52%;
+    height: 62rem;
+    @media only screen and (max-width: 1780px) {
+      left: 55%;
+    }
+    @media only screen and (max-width: 1560px) {
+      left: 57%;
+    }
+    @media only screen and (max-width: 1470px) {
+      left: 54%;
+      height: 69rem;
+    }
+    @media only screen and (max-width: 1300px) {
+      left: 58%;
+      height: 69rem;
+    }
+    @media only screen and (max-width: 1130px) {
+      left: 62%;
+      height: 69rem;
+    }
+    @media only screen and (max-width: 1024px) {
+      left: 52%;
+      height: 69rem;
+    }
+    img {
+      object-fit: cover;
+      height: 100%;
+      width: auto;
+    }
+  }
+  .div2Bottom {
+    padding: 1rem 2rem;
+    position: absolute;
+    top: 15%;
+    left: 28%;
+    width: 50rem;
+    height: 24rem;
+    border-bottom: 12px solid rgb(117, 33, 150);
+    background-color: rgb(140, 190, 47);
+    border-radius: 6px;
+    @media only screen and (max-width: 1024px) {
+      left: 22%;
+    }
+    @media only screen and (max-width: 740px) {
+      left: 14%;
+    }
+    @media only screen and (max-width: 695px) {
+      left: 10%;
+    }
+    .freedomHeader {
+      font-family: "Montserrat", sans-serif;
+      text-align: center;
+      color: white;
+      margin-top: 1rem;
+      margin-bottom: 1.5rem;
+      font-size: 4.2rem;
+    }
+    .freedomPara {
+      font-size: 2rem;
+      color: black;
+    }
+    .outStatii {
+      margin-top: -27rem;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 13px;
+      text-align: center;
+      width: 39rem;
+      padding: 1rem;
+      font-size: 2.8rem; // display: inline-block;
+      background-color: rgb(117, 33, 150);
+      transition: all 0.4s;
+      @media only screen and (max-width: 880px) {
+        margin-top: -20rem;
+        left: 55%;
+        margin-left: -1rem;
+        width: 36rem;
+      }
+      &:hover {
+        background-color: rgb(66, 190, 16);
+      }
+    }
+  }
+}
+.latestEvents {
+  font-size: 3.4rem;
+  position: relative;
+  top: 38%;
+  left: 3%;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Rubik Mono One", sans-serif;
+  @media only screen and(max-width:840px) {
+    top: 57%;
+    left: -24%;
+  }
+}
+.eventsContainer {
+  position: relative;
+  height: 50rem;
+  width: 40rem;
+  .eventsContainer2 {
+    position: relative;
+    top: 15%;
+    left: 7%;
+    height: 4rem;
+    @media only screen and(max-width:840px) {
+      top: 25%;
+      left: 1%;
+    }
+    .indexEventLolCount {
+      position: absolute;
+      left: -7%;
+      font-size: 3.4rem;
+    }
+    .mainSideEventListContainerHid {
+      .eventTitleSpanHid {
+        .sideMainTitleHid {
+          font-size: 3.5rem;
+        }
+      }
+    }
+  }
+}
