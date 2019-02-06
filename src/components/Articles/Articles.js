@@ -9,8 +9,6 @@ import {
   updateEvent2,
   addEvent2
 } from "../../actions/actionReciever";
-import ReactConfirmAlert, { confirmAlert } from "react-confirm-alert";
-import "react-confirm-alert/src/react-confirm-alert.css";
 const uuidv1 = require("uuid/v1");
 class Articles extends Component {
   state = {

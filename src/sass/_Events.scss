@@ -66,6 +66,7 @@
   width: 59rem;
   height: 33rem;
   transition: opacity 1.5s;
+
   @media only screen and (max-height: 1750px) {
     right: 2%;
   }
@@ -89,6 +90,9 @@
     object-fit: cover;
     height: 100%;
     width: 100%;
+    // @media only screen and (max-height: 1890px) {
+    //   top: -15%;
+    // }
   }
 }
 

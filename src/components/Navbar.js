@@ -20,7 +20,7 @@ export default class navbar extends Component {
           <Link to="/">
             <img
               className="myLogo"
-              src={require("../img/logo.png")}
+              src={require("../img/logo.jpg")}
               alt="logo"
             />
           </Link>

@@ -72,15 +72,15 @@ const initialState = {
         "https://cdn.shibe.online/shibes/27936f4e250bb2be24d35e5b3e661518e7a139bb.jpg",
         "https://cdn.shibe.online/shibes/8145bedb5c6c09fb67e6c080725a667553c403b6.jpg"
       ],
-      location: "ул. „8-ми декември“, 1700 Студентски Комплекс, София",
+      location: "eget finiborem ipsum dolor sit amet, c",
       description:
         "Sanic cursus mollis urna, eget finibus elit feugiat non. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec faucibus sapien risus, sagittis sodales magna aliquam viverra. Nullam nec condimentum sem. Aenean non auctor mi. Sed nisl purus, imperdiet sollicitudin diam mattis, tempor commodo turpis. Fusce maximus lacus ut magna sagittis, placerat laoreet lacus vehicula. Morbi egestas lacus id nibh pretium, quis placerat tortor pulvinar. Vivamus sagittis rhoncus neque, et finibus purus tristique et. Nullam velit lorem, viverra eget consequat eget, scelerisque in dolor.",
       tax: "10лв",
-      note: "Носете повече храна"
+      note: "orem ipsum dolor sit amet "
     },
     {
       id: uuidv1(),
-      title: "Пъперско събрание",
+      title: "Важното събрание",
       date: "10/28/2018 от 16:00 до 18:00 часа",
       images: [
         "https://cdn.shibe.online/shibes/cf5a362d4cc2e1d6710beda4fb68148795f7d829.jpg",
@@ -88,12 +88,11 @@ const initialState = {
         "https://cdn.shibe.online/shibes/b0e278452f3d35d0d007c009bd42f42ae9025f0d.jpg",
         "https://cdn.shibe.online/shibes/997455bccf98e5b2c6c299925a904c30f0236a3d.jpg"
       ],
-      location:
-        "ул. „Околовръстен път“ 214, 1434 в.з. Симеоново - север, София",
+      location: "eget finorem ipsum dolor sit amet, c",
       description:
         "Nunc eu pretium nibh. Quisque tempus, risus sed rhoncus commodo, leo ipsum euismod felis, a lobortis tellus libero sed metus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut ut est purus. Vestibulum a tincidunt turpis. Sed ornare ornare leo, maximus malesuada mi mattis quis. Curabitur lobortis fringilla posuere. Cras vel imperdiet tortor, a pellentesque justo. Donec vestibulum lectus dui, id hendrerit mauris maximus quis. Cras ac volulentesque a. Quisque sapien augue, ultricies ut eros et, dapibus rutrum enim. Curabitur purus lacus, euismod non leo vel, vestibulum vulputate nibh. Pellentesque non velit nulla.",
       tax: "3лв",
-      note: "Ако ни следвате в Instagram,за вас входът е безплатен"
+      note: "orem ipsum dolor sit amet orem ipsum dolor sit amet"
     },
     {
       id: uuidv1(),
@@ -106,11 +105,11 @@ const initialState = {
         "https://cdn.shibe.online/shibes/623ee33bd07cb9dffa4363db992088554a7b7093.jpg",
         "https://cdn.shibe.online/shibes/3f8e6501626a074e17edb0c7db26942765374cd1.jpg"
       ],
-      location: "ул. „Лъчезар Станчев“ 7, 1756 ж.к. Изток, София",
+      location: "eget. Lorem ipsum dolor sit amet, c",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ac euismod ipsum, sit amet condimentum augue. Mauris elementum tellus sit amet pellentesque posuere. Vestibulum sed dictum lectus. Vivamus in luctus tortor. Curabitur sit amet varius velit, non aliquam mi. Maecenas vel tincidunt tortor. Duis imperdiet, tortor ut accumsan iaculis, nisl felis cursus nulla, at viverra sapien orci id leo. Ut in scelerisque metus, porttitor lacinia elit. Phasellus consequat erat ac consectetur fringilla. Nulla lacinia nunc hendrerit, pretium mi sed, venenatis sapien. In rutrum suscipit nibh sit amet interdum. Vestibulum eros arcu, laoreet eu libero non, malesuada pharetra est.",
       tax: "5лв",
-      note: "Кучетата не хапят"
+      note: "orem ipsum dolor sit amet"
     },
     {
       id: uuidv1(),
@@ -123,7 +122,7 @@ const initialState = {
         "https://cdn.shibe.online/shibes/a6118d1d8e608854fbea63b3c7cc47b4db7361b6.jpg",
         "https://cdn.shibe.online/shibes/3eec5f2b13553977ad45ad4c53889f0ce80e9138.jpg"
       ],
-      location: "ул. „Хайдут Сидер“ 12, 1309 ж.к. Илинден, София",
+      location: "eget . Lorem ipsum dolor sit amet, c",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ac euismod ipsum, sit amet condimentum augue. Mauris elementum tellus sit amet pellentesque posuere. Vestibulum sed dictum lectus. Vivamus in luctus tortor. Curabitur sit amet varius velit, non aliquam mi. Maecenas vel tincidunt tortor. Duis imperdiet, tortor ut accumsan iaculis, nisl felis cursus nulla, at viverra sapien orci id leo. Ut in scelerisque metus, porttitor lacinia elit. Phasellus consequat erat ac consectetur fringilla. Nulla lacinia nunc hendrerit, pretium mi sed, venenatis sapien. In rutrum suscipit nibh sit amet interdum. Vestibulum eros arcu, laoreet eu libero non, malesuada pharetra est.",
       tax: "Вход свободен",
