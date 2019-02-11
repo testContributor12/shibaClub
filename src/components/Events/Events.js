@@ -235,6 +235,7 @@ class Events extends Component {
           id: ide,
           images: response.data
         };
+
         thisState.notify();
         thisState.setState({
           currImg: thisStateReal.currImg.concat(response.data)
