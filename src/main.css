@@ -764,56 +764,43 @@
   position: absolute;
   top: 20.5%;
   right: 4.5%;
-  width: 59rem;
+  width: 57rem;
   height: 33rem;
   -webkit-transition: opacity 1.5s;
   transition: opacity 1.5s;
 }
 
-@media only screen and (max-width: 1750px) {
+@media only screen and (max-height: 1750px) {
   .imgContainerMain {
     right: 2%;
   }
 }
 
-@media only screen and (max-width: 1630px) {
+@media only screen and (max-height: 830px) {
   .imgContainerMain {
-    width: 50rem;
+    top: 22%;
   }
 }
 
-@media only screen and (max-width: 1470px) {
-  .imgContainerMain {
-    width: 59rem;
-    top: 17%;
-  }
-}
-
-@media only screen and (max-width: 857px) {
-  .imgContainerMain {
-    top: 25%;
-  }
-}
-
-@media only screen and (max-width: 730px) {
+@media only screen and (max-height: 730px) {
   .imgContainerMain {
     top: 30%;
   }
 }
 
-@media only screen and (max-width: 670px) {
+@media only screen and (max-height: 670px) {
   .imgContainerMain {
     top: 35%;
   }
 }
 
-@media only screen and (max-width: 577px) {
+@media only screen and (max-height: 577px) {
   .imgContainerMain {
     top: 40%;
   }
 }
 
-@media only screen and (max-width: 505px) {
+@media only screen and (max-height: 505px) {
   .imgContainerMain {
     top: 43%;
   }
@@ -833,55 +820,42 @@
   border-left: 5px solid #752196;
   position: absolute;
   top: 20.5%;
-  right: 4.5%;
-  width: 59rem;
+  right: 2%;
+  width: 57rem;
   height: 33rem;
 }
 
-@media only screen and (max-width: 1750px) {
+@media only screen and (max-height: 1750px) {
   .deleteImageList {
     right: 2%;
   }
 }
 
-@media only screen and (max-width: 1630px) {
+@media only screen and (max-height: 830px) {
   .deleteImageList {
-    width: 50rem;
+    top: 22%;
   }
 }
 
-@media only screen and (max-width: 1470px) {
-  .deleteImageList {
-    width: 59rem;
-    top: 17%;
-  }
-}
-
-@media only screen and (max-width: 857px) {
-  .deleteImageList {
-    top: 25%;
-  }
-}
-
-@media only screen and (max-width: 730px) {
+@media only screen and (max-height: 730px) {
   .deleteImageList {
     top: 30%;
   }
 }
 
-@media only screen and (max-width: 670px) {
+@media only screen and (max-height: 670px) {
   .deleteImageList {
     top: 35%;
   }
 }
 
-@media only screen and (max-width: 577px) {
+@media only screen and (max-height: 577px) {
   .deleteImageList {
     top: 40%;
   }
 }
 
-@media only screen and (max-width: 505px) {
+@media only screen and (max-height: 505px) {
   .deleteImageList {
     top: 43%;
   }
@@ -937,7 +911,7 @@
 
 .eventFlexboxDetails {
   margin-top: 3rem;
-  width: 59rem;
+  width: 57rem;
   margin-left: 7rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1166,20 +1140,20 @@
   border-radius: 10px;
   position: absolute;
   top: 15.7%;
-  left: 62.1%;
+  left: 67.1%;
   z-index: 1;
   font-size: 2.5rem;
 }
 
-@media only screen and (max-height: 912px) {
+@media only screen and (max-width: 1814px) {
   .addShibaImages {
-    top: 15%;
+    left: 65.1%;
   }
 }
 
-@media only screen and (max-height: 857px) {
+@media only screen and (max-width: 1655px) {
   .addShibaImages {
-    top: 20%;
+    left: 63.1%;
   }
 }
 
@@ -1206,15 +1180,15 @@
   z-index: 1;
 }
 
-@media only screen and (max-height: 912px) {
+@media only screen and (max-width: 1814px) {
   .deleteImages {
-    top: 15%;
+    right: 28.8%;
   }
 }
 
-@media only screen and (max-height: 857px) {
+@media only screen and (max-width: 1655px) {
   .deleteImages {
-    top: 20%;
+    right: 30.8%;
   }
 }
 
@@ -1257,18 +1231,6 @@
   font-size: 2.9rem;
 }
 
-@media only screen and (max-height: 912px) {
-  .openLighboxButton {
-    top: 15%;
-  }
-}
-
-@media only screen and (max-height: 857px) {
-  .openLighboxButton {
-    top: 20%;
-  }
-}
-
 @media only screen and (max-height: 730px) {
   .openLighboxButton {
     top: 22%;
@@ -1278,12 +1240,6 @@
 @media only screen and (max-height: 730px) {
   .openLighboxButton {
     top: 24%;
-  }
-}
-
-@media only screen and (max-width: 1470px) {
-  .openLighboxButton {
-    top: 12%;
   }
 }
 

@@ -63,33 +63,26 @@
   position: absolute;
   top: 20.5%;
   right: 4.5%;
-  width: 59rem;
+  width: 57rem;
   height: 33rem;
   transition: opacity 1.5s;
 
-  @media only screen and (max-width: 1750px) {
+  @media only screen and (max-height: 1750px) {
     right: 2%;
   }
-  @media only screen and (max-width: 1630px) {
-    width: 50rem;
+  @media only screen and (max-height: 830px) {
+    top: 22%;
   }
-  @media only screen and(max-width:1470px) {
-    width: 59rem;
-    top: 17%;
-  }
-  @media only screen and (max-width: 857px) {
-    top: 25%;
-  }
-  @media only screen and (max-width: 730px) {
+  @media only screen and (max-height: 730px) {
     top: 30%;
   }
-  @media only screen and (max-width: 670px) {
+  @media only screen and (max-height: 670px) {
     top: 35%;
   }
-  @media only screen and (max-width: 577px) {
+  @media only screen and (max-height: 577px) {
     top: 40%;
   }
-  @media only screen and (max-width: 505px) {
+  @media only screen and (max-height: 505px) {
     top: 43%;
   }
   .imgContainerSub {
@@ -97,6 +90,9 @@
     object-fit: cover;
     height: 100%;
     width: 100%;
+    // @media only screen and (max-height: 1890px) {
+    //   top: -15%;
+    // }
   }
 }
 
@@ -106,33 +102,25 @@
   border-left: 5px solid rgb(117, 33, 150);
   position: absolute;
   top: 20.5%;
-  right: 4.5%;
-  width: 59rem;
+  right: 2%;
+  width: 57rem;
   height: 33rem;
-
-  @media only screen and (max-width: 1750px) {
+  @media only screen and (max-height: 1750px) {
     right: 2%;
   }
-  @media only screen and (max-width: 1630px) {
-    width: 50rem;
+  @media only screen and (max-height: 830px) {
+    top: 22%;
   }
-  @media only screen and(max-width:1470px) {
-    width: 59rem;
-    top: 17%;
-  }
-  @media only screen and (max-width: 857px) {
-    top: 25%;
-  }
-  @media only screen and (max-width: 730px) {
+  @media only screen and (max-height: 730px) {
     top: 30%;
   }
-  @media only screen and (max-width: 670px) {
+  @media only screen and (max-height: 670px) {
     top: 35%;
   }
-  @media only screen and (max-width: 577px) {
+  @media only screen and (max-height: 577px) {
     top: 40%;
   }
-  @media only screen and (max-width: 505px) {
+  @media only screen and (max-height: 505px) {
     top: 43%;
   }
   .wrapperContainer {
@@ -179,7 +167,7 @@
 
 .eventFlexboxDetails {
   margin-top: 3rem;
-  width: 59rem;
+  width: 57rem;
   margin-left: 7rem;
   display: flex;
   flex-direction: column;
@@ -330,14 +318,15 @@
   border-radius: 10px;
   position: absolute;
   top: 15.7%;
-  left: 62.1%;
+  left: 67.1%;
   z-index: 1;
   font-size: 2.5rem;
-  @media only screen and (max-height: 912px) {
-    top: 15%;
+
+  @media only screen and (max-width: 1814px) {
+    left: 65.1%;
   }
-  @media only screen and (max-height: 857px) {
-    top: 20%;
+  @media only screen and (max-width: 1655px) {
+    left: 63.1%;
   }
   @media only screen and (max-height: 730px) {
     top: 22%;
@@ -355,11 +344,12 @@
   right: 26.8%;
   font-size: 2.5rem;
   z-index: 1;
-  @media only screen and (max-height: 912px) {
-    top: 15%;
+
+  @media only screen and (max-width: 1814px) {
+    right: 28.8%;
   }
-  @media only screen and (max-height: 857px) {
-    top: 20%;
+  @media only screen and (max-width: 1655px) {
+    right: 30.8%;
   }
   @media only screen and (max-height: 730px) {
     top: 22%;
@@ -393,20 +383,16 @@
   top: 15%;
   width: 39rem;
   font-size: 2.9rem;
-
-  @media only screen and (max-height: 912px) {
-    top: 15%;
-  }
-  @media only screen and (max-height: 857px) {
-    top: 20%;
-  }
+  // @media only screen and (max-height: 912px) {
+  //   top: 15%;
+  // }
+  // @media only screen and (max-height: 830px) {
+  //   top: 20%;
+  // }
   @media only screen and (max-height: 730px) {
     top: 22%;
   }
   @media only screen and (max-height: 730px) {
     top: 24%;
-  }
-  @media only screen and(max-width:1470px) {
-    top: 12%;
   }
 }

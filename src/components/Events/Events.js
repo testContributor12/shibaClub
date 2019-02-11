@@ -786,13 +786,17 @@ class Events extends Component {
                   )
                 }
               >
-                Добави
+                <i className="fas fa-plus" />
               </span>
               <span onClick={this.deleteImages} className="deleteImages">
                 {this.state.showDeletePics ? (
-                  <span className="returnImages">Върни</span>
+                  <span className="returnImages">
+                    <i className="fas fa-backward" />
+                  </span>
                 ) : (
-                  <span className="delImages">Изтрий</span>
+                  <span className="delImages">
+                    <i className="fas fa-edit" />
+                  </span>
                 )}
               </span>
               {String(this.props.toEditOrNot.showEditableList) === "true" ? (
@@ -928,7 +932,7 @@ class Events extends Component {
                   </div>
                 </div>
               ) : (
-                <div>
+                <div className="gridboss">
                   <section className="eventFlexboxDetails">
                     <div className="titleStage">
                       <span className="actualTitle">
