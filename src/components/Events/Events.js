@@ -221,31 +221,22 @@ class Events extends Component {
     }
   };
 
-  addShibas = ide => {
+  addShibas = async ide => {
     let thisProps = this.props;
     let thisState = this;
     let thisStateReal = this.state;
-
-    axios
-      .get(
-        "https://api.codetabs.com/v1/proxy?quest=http://shibe.online/api/shibes?count=7"
-      )
-      .then(function(response) {
-        let myImages = {
-          id: ide,
-          images: response.data
-        };
-
-        thisState.notify();
-        thisState.setState({
-          currImg: thisStateReal.currImg.concat(response.data)
-        });
-
-        thisProps.addImages(myImages);
-      })
-      .catch(function(error) {
-        console.log(error);
-      });
+    let response = await axios.get(
+      "https://cors.io/?http://shibe.online/api/shibes?count=7"
+    );
+    let myImages = {
+      id: ide,
+      images: response.data
+    };
+    thisState.notify();
+    thisState.setState({
+      currImg: thisStateReal.currImg.concat(response.data)
+    });
+    thisProps.addImages(myImages);
   };
 
   updateAddImg = () => {
