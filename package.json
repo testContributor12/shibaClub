@@ -35,7 +35,6 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "proxy": "https://api.codetabs.com/v1/proxy?quest=http://shibe.online/api/shibes?count=7",
   "browserslist": [
     ">0.2%",
     "not dead",
