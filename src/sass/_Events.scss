@@ -67,25 +67,29 @@
   height: 33rem;
   transition: opacity 1.5s;
 
-  @media only screen and (max-height: 1750px) {
+  @media only screen and (max-width: 1750px) {
     right: 2%;
   }
-  @media only screen and (max-height: 1630px) {
+  @media only screen and (max-width: 1630px) {
     width: 50rem;
   }
-  @media only screen and (max-height: 857px) {
+  @media only screen and(max-width:1470px) {
+    width: 59rem;
+    top: 17%;
+  }
+  @media only screen and (max-width: 857px) {
     top: 25%;
   }
-  @media only screen and (max-height: 730px) {
+  @media only screen and (max-width: 730px) {
     top: 30%;
   }
-  @media only screen and (max-height: 670px) {
+  @media only screen and (max-width: 670px) {
     top: 35%;
   }
-  @media only screen and (max-height: 577px) {
+  @media only screen and (max-width: 577px) {
     top: 40%;
   }
-  @media only screen and (max-height: 505px) {
+  @media only screen and (max-width: 505px) {
     top: 43%;
   }
   .imgContainerSub {
@@ -379,6 +383,7 @@
   top: 15%;
   width: 39rem;
   font-size: 2.9rem;
+
   @media only screen and (max-height: 912px) {
     top: 15%;
   }
@@ -390,5 +395,8 @@
   }
   @media only screen and (max-height: 730px) {
     top: 24%;
+  }
+  @media only screen and(max-width:1470px) {
+    top: 12%;
   }
 }

@@ -118,10 +118,6 @@ class intro extends Component {
                 ) : null
               )}
             </div>
-
-            <Link to="/events">
-              <div className="outStatii">Разгледай всички събития</div>
-            </Link>
           </div>
         </section>
       </div>

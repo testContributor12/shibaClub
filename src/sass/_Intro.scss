@@ -353,30 +353,9 @@
       font-size: 2rem;
       color: black;
     }
-    .outStatii {
-      margin-top: -27rem;
-      color: white;
-      font-weight: bold;
-      cursor: pointer;
-      border-radius: 13px;
-      text-align: center;
-      width: 39rem;
-      padding: 1rem;
-      font-size: 2.8rem; // display: inline-block;
-      background-color: rgb(117, 33, 150);
-      transition: all 0.4s;
-      @media only screen and (max-width: 880px) {
-        margin-top: -20rem;
-        left: 55%;
-        margin-left: -1rem;
-        width: 36rem;
-      }
-      &:hover {
-        background-color: rgb(66, 190, 16);
-      }
-    }
   }
 }
+
 .latestEvents {
   font-size: 3.4rem;
   position: relative;
