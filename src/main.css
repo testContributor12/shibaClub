@@ -636,24 +636,38 @@
   width: 100%;
   height: 14rem;
   background-color: #313131;
-  position: relative;
-  bottom: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
 }
 
-.footerContainer .messageFooter {
-  margin-left: 8rem;
-  padding-top: 5rem;
-}
-
-.footerContainer .messageFooter p {
+.footerContainer h1 {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 3rem;
   color: white;
-  font-size: 1.6rem;
+  text-align: center;
+  font-size: 2.4rem;
 }
 
-.footerContainer .contactsContainer {
+.footerContainer span {
+  margin-left: 1rem;
+  cursor: pointer;
+  color: yellow;
+}
+
+.footerContainer span a {
+  font-size: 2.3rem;
+  color: #ceda26;
+  text-decoration: none;
+}
+
+.footerContainer p {
+  text-align: center;
+  padding-top: 1rem;
+  font-size: 1.3rem;
+  color: white;
+}
+
+.contactsContainer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -669,12 +683,12 @@
   margin-top: 1.5rem;
 }
 
-.footerContainer .contactsContainer .footerHeader {
+.contactsContainer .footerHeader {
   font-size: 1.6rem;
   margin-bottom: 0.2em;
 }
 
-.footerContainer .contactsContainer .numberAndIcon {
+.contactsContainer .numberAndIcon {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -683,26 +697,26 @@
           align-items: center;
 }
 
-.footerContainer .contactsContainer .numberAndIcon .fas {
+.contactsContainer .numberAndIcon .fas {
   margin-right: 10px;
   color: rgba(46, 211, 223, 0.39);
   font-size: 2rem;
 }
 
-.footerContainer .contactsContainer .numberAndIcon .teleNumber {
+.contactsContainer .numberAndIcon .teleNumber {
   font-size: 1.2rem;
   color: white;
 }
 
-.footerContainer .contactsContainer .footerHeader {
+.contactsContainer .footerHeader {
   color: white;
 }
 
-.footerContainer .contactsContainer .iconContainer .iconFace {
+.contactsContainer .iconContainer .iconFace {
   margin-right: 1rem;
 }
 
-.footerContainer .contactsContainer .iconContainer .iconFooter {
+.contactsContainer .iconContainer .iconFooter {
   width: 2.7rem;
   height: auto;
 }

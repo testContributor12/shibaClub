@@ -3,16 +3,18 @@
   height: 14rem;
   background-color: rgb(49, 49, 49);
   h1 {
+    justify-content: center;
     padding-top: 3rem;
     color: rgb(255, 255, 255);
     text-align: center;
+    font-size: 2.4rem;
   }
   span {
     margin-left: 1rem;
     cursor: pointer;
     color: yellow;
     a {
-      font-size: 1.5rem;
+      font-size: 2.3rem;
       color: rgb(206, 218, 38);
       text-decoration: none;
     }
@@ -24,42 +26,41 @@
     color: white;
   }
 }
-  .contactsContainer {
+.contactsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 1.4rem;
+  margin-left: 24rem;
+  margin-top: 1.5rem;
+  .footerHeader {
+    font-size: 1.6rem;
+    margin-bottom: 0.2em;
+  }
+  .numberAndIcon {
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    padding: 1.4rem;
-    margin-left: 24rem;
-    margin-top: 1.5rem;
-    .footerHeader {
-      font-size: 1.6rem;
-      margin-bottom: 0.2em;
+    align-items: center;
+    .fas {
+      margin-right: 10px;
+      color: rgba(46, 211, 223, 0.39);
+      font-size: 2rem;
     }
-    .numberAndIcon {
-      display: flex;
-      align-items: center;
-      .fas {
-        margin-right: 10px;
-        color: rgba(46, 211, 223, 0.39);
-        font-size: 2rem;
-      }
-      .teleNumber {
-        font-size: 1.2rem;
-        color: white;
-      }
-    }
-
-    .footerHeader {
+    .teleNumber {
+      font-size: 1.2rem;
       color: white;
     }
-    .iconContainer {
-      .iconFace {
-        margin-right: 1rem;
-      }
-      .iconFooter {
-        width: 2.7rem;
-        height: auto;
-      }
+  }
+
+  .footerHeader {
+    color: white;
+  }
+  .iconContainer {
+    .iconFace {
+      margin-right: 1rem;
+    }
+    .iconFooter {
+      width: 2.7rem;
+      height: auto;
     }
   }
 }
