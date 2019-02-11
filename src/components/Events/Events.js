@@ -777,7 +777,6 @@ class Events extends Component {
                     <span>({this.props.events[i].images.length})</span>
                   </span>
                 </span>
-                =
               </div>
 
               <span

@@ -70,6 +70,9 @@
   @media only screen and (max-height: 1750px) {
     right: 2%;
   }
+  @media only screen and (max-height: 1630px) {
+    width: 50rem;
+  }
   @media only screen and (max-height: 857px) {
     top: 25%;
   }
@@ -90,9 +93,6 @@
     object-fit: cover;
     height: 100%;
     width: 100%;
-    // @media only screen and (max-height: 1890px) {
-    //   top: -15%;
-    // }
   }
 }
 

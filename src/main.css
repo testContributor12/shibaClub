@@ -804,6 +804,12 @@
   }
 }
 
+@media only screen and (max-height: 1630px) {
+  .imgContainerMain {
+    width: 50rem;
+  }
+}
+
 @media only screen and (max-height: 857px) {
   .imgContainerMain {
     top: 25%;
