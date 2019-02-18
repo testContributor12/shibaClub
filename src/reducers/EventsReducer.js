@@ -41,7 +41,7 @@ const initialState = {
       id: uuidv1(),
       title: "Sed eget sapien ",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget sapien eu dui fermentum vestibulum. Aenean posuere vestibulum lectus, ut venenatis enim blandit eget. Nunc eget erat in eros suscipit pretium. Nullam vehicula justo ut leo eleifend commodo. Nullam placerat efficitur eleifend. In ullamcorper, mi a tincidunt viverra, turpis elit interdum ligula, at tincidunt tellus dui a leo. Vestibulum iaculis volutpat risus vel dapibus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec a dignissim metus, non efficitur est. ",
+        "Lorem ipsor sit amet, consectetur adipiscing elit. Sed eget sapien eu dui fermentum vestibulum. Aenean posuere vestibulum lectus, ut venenatis enim blandit eget. Nunc eget erat in eros suscipit pretium. Nullam vehicula justo ut leo eleifend commodo. Nullam placerat efficitur eleifend. In ullamcorper, mi a tincidunt viverra, turpis elit interdum ligula, at tincidunt tellus dui a leo. Vestibulum iaculis volutpat risus vel dapibus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec a dignissim metus, non efficitur est. ",
       author: "adipiscing elit"
     },
     {
