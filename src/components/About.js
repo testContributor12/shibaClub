@@ -23,8 +23,7 @@ export default class About extends Component {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
                 pulvinar vulputate neque eu consequat. Nulla ultricies vel enim
                 id efficitur. Donec fermentum fermentum massa, in aliquet lacus
-                convallis nesemper justo justo vitae arcu. Pellentesque in
-                venenatis neque. Sed non sem dolor.
+                convallis nesemperlor.
               </p>
             </div>
           </div>
