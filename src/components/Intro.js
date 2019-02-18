@@ -103,7 +103,7 @@ class intro extends Component {
             <h1 className="freedomHeader">Nam rhoncus phar</h1>
             <p className="freedomPara">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac
-              mauris non nulla aliquet vestibulum vel nec risus. Praesent
+              mauris non nulla aliquet vestibulum el nec risus. Praesent
               convallis libero eu nis malesuada cursus.
             </p>
             <h2 className="latestEvents">Последните събития</h2>
