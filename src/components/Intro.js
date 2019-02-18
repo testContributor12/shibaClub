@@ -24,7 +24,7 @@ class intro extends Component {
             <h1 className="headerIntro"> Lorem ipsum </h1>
             <p className="aboutIntroText">
               Quisque fringilla lectus vel commodo feugiat. Vestibulum
-              pellentesque orci at maximus sollicitudin. Suspendisse hendrerit a
+              pellentesque orci at maximus sollicitin. Suspendisse hendrerit a
               ante id semper.
             </p>
             <Link to="/about" className="joinUsButtonContainer">
